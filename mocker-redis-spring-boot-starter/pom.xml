@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.github.mirowww</groupId>
+        <groupId>com.github.microwww</groupId>
         <artifactId>mocker-redis-spring-boot-parent</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1</version>
     </parent>
 
     <artifactId>mocker-redis-spring-boot-starter</artifactId>
@@ -22,10 +22,16 @@
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.github.mirowww</groupId>
+            <groupId>com.github.microwww</groupId>
             <artifactId>mocker-redis-spring-boot-autoconfigure</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.0.0</version>
+        </dependency>
+
     </dependencies>
 
 </project>
