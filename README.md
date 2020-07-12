@@ -25,3 +25,12 @@ mocker redis code in [github](https://github.com/ishfid4/jedis-mock)
 	<version>0.1.16</version>
 </dependency>
 ```
+
+2.0.0 + with java redis server: [jedis-mock](https://github.com/microwww/jedis-mock)
+```
+<dependency>
+	<groupId>com.github.microwww</groupId>
+	<artifactId>redis-server</artifactId>
+	<version>${jedis-mock.version}</version>
+</dependency>
+```
