@@ -47,7 +47,7 @@
 
     <groupId>com.github.microwww</groupId>
     <artifactId>mocker-redis-spring-boot-parent</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>1.0.0-2.8</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -63,7 +63,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>1.5.0.RELEASE</spring-boot.version>
-        <jedis-mock.version>0.1.16</jedis-mock.version>
+        <jedis-mock.version>0.0.2-2.8</jedis-mock.version>
     </properties>
 
     <dependencyManagement>
@@ -81,8 +81,8 @@
                 <version>${spring-boot.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.fppt</groupId>
-                <artifactId>jedis-mock</artifactId>
+                <groupId>com.github.microwww</groupId>
+                <artifactId>redis-server</artifactId>
                 <version>${jedis-mock.version}</version>
             </dependency>
             <dependency>
