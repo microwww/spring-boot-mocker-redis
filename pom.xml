@@ -89,7 +89,7 @@
             <dependency>
                 <groupId>com.github.microwww</groupId>
                 <artifactId>redis-server</artifactId>
-                <version>${jedis-mock.version}</version>
+                <version>${redis-serve.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
