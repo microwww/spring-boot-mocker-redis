@@ -12,7 +12,7 @@
 
     <name>spring-boot-mocker-redis</name>
     <url>https://github.com/microwww/spring-boot-mocker-redis/</url>
-    <description>This is a template language for PPTX</description>
+    <description>This is a redis server mock for spring-boot </description>
 
     <licenses>
         <license>
@@ -47,7 +47,7 @@
 
     <groupId>com.github.microwww</groupId>
     <artifactId>mocker-redis-spring-boot-parent</artifactId>
-    <version>1.0.0-2.8</version>
+    <version>0.0.3</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -63,7 +63,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>1.5.0.RELEASE</spring-boot.version>
-        <jedis-mock.version>0.0.2-2.8</jedis-mock.version>
+        <jedis-mock.version>0.1.16</jedis-mock.version>
+        <redis-serve.version>0.0.2-2.8</redis-serve.version>
     </properties>
 
     <dependencyManagement>
@@ -79,6 +80,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-data-redis</artifactId>
                 <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.fppt</groupId>
+                <artifactId>jedis-mock</artifactId>
+                <version>${jedis-mock.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.microwww</groupId>

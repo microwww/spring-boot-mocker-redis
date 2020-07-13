@@ -7,9 +7,23 @@
     <parent>
         <groupId>com.github.microwww</groupId>
         <artifactId>mocker-redis-spring-boot-parent</artifactId>
-        <version>1.0.0-2.8</version>
+        <version>0.0.3</version>
     </parent>
 
     <artifactId>mocker-redis-spring-boot-starter</artifactId>
+    <version>2.0.2-2.8</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.microwww</groupId>
+            <artifactId>mocker-redis-spring-boot-autoconfigure</artifactId>
+            <version>2.0.2-2.8</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
