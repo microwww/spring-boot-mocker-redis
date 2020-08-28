@@ -1,1 +1,1 @@
-provides: mocker-redis-spring-boot-starter, com.github.fppt.jedis-mock
+provides: mocker-redis-spring-boot-starter
