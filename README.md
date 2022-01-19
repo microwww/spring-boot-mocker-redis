@@ -1,13 +1,20 @@
-# spring-boot-mocker-redis
+# Spring-boot-mocker-redis
 This is a spring-boot-starter. if you dependency a redis-server, Use it, you can run test case, But do not need a real redis-server. Run it for your test, ONLY !
 
-## spring-boot-mocker-redis
+# This is move to [redis-mock](https://github.com/microwww/redis-mock)
+!!!!!!!! This is move to [redis-mock](https://github.com/microwww/redis-mock) !!!!!!!
+
+!!!!!!!! This is move to [redis-mock](https://github.com/microwww/redis-mock) !!!!!!!
+
+!!!!!!!! This is move to [redis-mock](https://github.com/microwww/redis-mock) !!!!!!!
+
+## Spring-boot-mocker-redis
 Using it, you can add the maven dependency :
 ```
 <dependency>
 	<groupId>com.github.microwww</groupId>
 	<artifactId>mocker-redis-spring-boot-starter</artifactId>
-	<version>0.0.1</version>
+	<version>5.3.0</version>
 </dependency>
 ```
 
@@ -15,7 +22,10 @@ You can set `mocker.jedis.enable=false` to disable it, like any spring-boot proj
 
 The embedded redis server will listener `spring.redis.port` port, and host is `0.0.0.0`, so you must set `spring.redis.host` to match this host.
 
-## project dependency jedis-mocker
+## All version
+ALL version to see [maven repository](https://mvnrepository.com/artifact/com.github.microwww/mocker-redis-spring-boot-starter)
+
+## Dependency
 
 mocker redis code in [github](https://github.com/ishfid4/jedis-mock)
 ```
@@ -26,7 +36,7 @@ mocker redis code in [github](https://github.com/ishfid4/jedis-mock)
 </dependency>
 ```
 
-2.0.0 + with java redis server: [jedis-mock](https://github.com/microwww/jedis-mock)
+2.0.0 + with java redis server: [jedis-mock](https://github.com/microwww/redis-mock) , Last version is v0.3.0
 ```
 <dependency>
 	<groupId>com.github.microwww</groupId>
